@@ -1,0 +1,8 @@
+
+
+<input type ="text" id="n1"/><br/><br/>
+<input type="text" id="n2"/><br/><br/>
+<input type="text" id="n3"/><br/><br/>
+
+<button onclick="BishBosh();">=</button>
+<input type="text" id="result"/>

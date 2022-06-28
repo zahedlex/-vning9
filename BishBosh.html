@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="bishbosh.css">
+    
+    <div class="footer">
+        <p>Created by Zahed. © 2022</p>
+    </div>
+
+</head>
+<body>
+
+   <script> 
+   for(let i = 1; i < 100; i++){
+
+        if((i % 3)== 0)
+        console.log('Bish');
+    
+        else if((i % 4) == 0)
+        console.log('Bosh');
+    
+        else ((i % 3) == 0 && (i % 4) == 0)
+        console.log('Bish-Bosh')
+    }
+</script>
+
+<h2> Bish-Bosh 2.0</h2>
+<p> Bish-Bosh listar alla tal mellan ett intervall, men vissa undantag: Om talet är jämnt delbart
+    med ett första tal listas ‘Bish’ istället för talet. Om talet är jämnt delbart med ett annat valt tal listas ‘Bosh’ istället för
+    talet. Om talet är jämnt delbart med både med båda valda talen skrivs “Bish-Bosh” istället för talet.
+    </p>
+
+<input type ="text" id="n1"/>Ange Bish tal<br/><br/>
+<input type="text" id="n2"/>Ange Bosh Tal<br/><br/>
+<input type="text" id="n3"/> Ange Max tal För intervall<br/><br/>
+
+<button onclick="BishBosh();">=</button>
+<input type="text" id="result"/>
+
+
+<script src="BishBosh.js"></script>
+    
+
+
+</body>
+</html>
